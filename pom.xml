@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>Project_JAX-B</groupId>
-	<artifactId>JAX-B</artifactId>
+       <artifactId>JAX-B</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>JAX-B</name>
 	<description>JAX-B project spring boot</description>
@@ -49,6 +49,7 @@
 			<artifactId>jaxb-runtime</artifactId>
 			<version>2.3.1</version>
 		</dependency>
+		//this is my jakarta.servlet dependence
 		<dependency>
 			<groupId>jakarta.servlet</groupId>
 			<artifactId>jakarta.servlet-api</artifactId>
