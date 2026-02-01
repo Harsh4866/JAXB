@@ -23,6 +23,12 @@ public class ProductController {
     @Autowired
     ProductService productService;
 
+    /**
+     * This is my prodcut service post method that is creating the product
+     * @param product
+     * @return
+     */
+
     @PostMapping("/products")
     public ResponseEntity<Product> saveAll(@RequestBody Product product) {
         Product product1 = productService.addAll(product);
